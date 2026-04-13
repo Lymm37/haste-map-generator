@@ -2,7 +2,7 @@
 
 Browser-based map generator and predictor for Haste shard runs. Predicts biome variants, paths, fragment modifiers, and items for a given seed.
 
-[https://lymm37.github.io/haste-map-generator](Online Version)
+[Online Version](https://lymm37.github.io/haste-map-generator)
 
 ## Installation / Locally Hosting
 

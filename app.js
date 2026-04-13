@@ -973,8 +973,28 @@ function preloadIcon(iconPath) {
   }
   const img = new Image();
   img.onload = () => scheduleDraw();
+  img.onerror = () => scheduleDraw();
   img.src = iconPath;
   state.imageCache.set(iconPath, img);
+}
+
+function isImageDrawable(img) {
+  if (!img) {
+    return false;
+  }
+  return Boolean(img.complete && img.naturalWidth > 0 && img.naturalHeight > 0);
+}
+
+function drawImageSafely(img, x, y, w, h) {
+  if (!isImageDrawable(img)) {
+    return false;
+  }
+  try {
+    ctx.drawImage(img, x, y, w, h);
+    return true;
+  } catch (_) {
+    return false;
+  }
 }
 
 function parseModifierNames(summary) {
@@ -1005,9 +1025,7 @@ function drawIconToken(x, y, meta, fallbackLabel, tooltipText, keepHoverNodeId =
   }
   const img = iconPath ? state.imageCache.get(iconPath) : null;
 
-  if (img && img.complete) {
-    ctx.drawImage(img, x, y, ICON_SIZE, ICON_SIZE);
-  } else {
+  if (!drawImageSafely(img, x, y, ICON_SIZE, ICON_SIZE)) {
     ctx.fillStyle = '#d9e2e8';
     ctx.strokeStyle = '#8b98a3';
     ctx.lineWidth = 1;
@@ -1157,7 +1175,7 @@ function drawNodeMarker(node, p, isHovered, visualStyle = {}) {
   const radius = getNodeRadius(node.type);
   const iconPath = getNodeIconPath(node.type);
   const iconImg = iconPath ? state.imageCache.get(iconPath) : null;
-  const hasIcon = iconImg && iconImg.complete;
+  const hasIcon = isImageDrawable(iconImg);
   const strokeColor = visualStyle.strokeColor || '#ffffff';
   const fillColor = visualStyle.fillColor || 'rgba(0, 0, 0, 0)';
 
@@ -1171,7 +1189,7 @@ function drawNodeMarker(node, p, isHovered, visualStyle = {}) {
 
   if (hasIcon) {
     const size = radius * 2 * getNodeIconScale(node.type);
-    ctx.drawImage(iconImg, p.x - size / 2, p.y - size / 2, size, size);
+    drawImageSafely(iconImg, p.x - size / 2, p.y - size / 2, size, size);
   }
 }
 

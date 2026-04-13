@@ -1,0 +1,287 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-10T19:48:10.115Z",
+  "count": 28,
+  "modifiers": [
+    {
+      "name": "BoostBonus",
+      "id": "boostbonus",
+      "displayName": "Boost Bonus",
+      "description": "All boost is doubled",
+      "iconPath": "./data/images/Modification_Icons__0012_BoostBonus-(Boost-effects-are-doubled).png",
+      "incompatibleModifierPathIds": [
+        170363
+      ]
+    },
+    {
+      "name": "BoostIncrease",
+      "id": "boost_increase",
+      "displayName": "Boost Increase",
+      "description": "+5% boost for entire shard",
+      "iconPath": "./data/images/Modification_Icons__0027_Boost-Increase-(permanent).png",
+      "incompatibleModifierPathIds": [
+        170362
+      ]
+    },
+    {
+      "name": "BoostReduction",
+      "id": "boostreduction",
+      "displayName": "Boost Reduction",
+      "description": "All boost is halved",
+      "iconPath": "./data/images/Modification_Icons__0011_BoostReduction-(Boost-effects-are-halved).png",
+      "incompatibleModifierPathIds": [
+        170361
+      ]
+    },
+    {
+      "name": "BoostRings_High",
+      "id": "boostrings_high",
+      "displayName": "Boost Rings High",
+      "description": "Boost rings appear ahead (every 3 seconds)",
+      "iconPath": "./data/images/Modification_Icons__0000_Spawn-Boost-Rings-ahead-(high-intensity).png",
+      "incompatibleModifierPathIds": [
+        170365
+      ]
+    },
+    {
+      "name": "BoostRings_Low",
+      "id": "boostrings_low",
+      "displayName": "Boost Rings Low",
+      "description": "Boost rings appear ahead (every 6 seconds)",
+      "iconPath": "./data/images/Modification_Icons__0001_Spawn-Boost-Rings-ahead-(low-intensity).png",
+      "incompatibleModifierPathIds": [
+        170364
+      ]
+    },
+    {
+      "name": "ChooseFromThreeItems",
+      "id": "choose_from_three_items",
+      "displayName": "Choose From Three Items",
+      "description": "Complete fragment to choose one of three items",
+      "iconPath": "./data/images/Modification_Icons__0026_Choose-from-three-Items.png",
+      "incompatibleModifierPathIds": [
+        170366,
+        170372
+      ]
+    },
+    {
+      "name": "DamageMultiplierDecrease",
+      "id": "damagemultiplier_decrease",
+      "displayName": "Damage Multiplier Decrease",
+      "description": "Decrease all damage taken (-50%)",
+      "iconPath": "./data/images/Modification_Icons__0014_Damage-Multiplier-Decrease-(ie.-take-less-damage).png",
+      "incompatibleModifierPathIds": [
+        170368
+      ]
+    },
+    {
+      "name": "DamageMultiplierIncrease",
+      "id": "damagemultiplier_increase",
+      "displayName": "Damage Multiplier Increase",
+      "description": "Increase all damage taken (+30%)",
+      "iconPath": "./data/images/Modification_Icons__0013_Damage-Multiplier-Increase-(ie.-take-more-damage).png",
+      "incompatibleModifierPathIds": [
+        170367
+      ]
+    },
+    {
+      "name": "DifficultyIncrease_Large",
+      "id": "increase_difficulty_large",
+      "displayName": "Difficulty Increase Large",
+      "description": "Increased fragment difficulty (+6)",
+      "iconPath": "./data/images/Modification_Icons__0015_Difficulty-Increase-(large).png",
+      "incompatibleModifierPathIds": [
+        170370
+      ]
+    },
+    {
+      "name": "DifficultyIncrease_Small",
+      "id": "increase_difficulty_small",
+      "displayName": "Difficulty Increase Small",
+      "description": "Increased fragment difficulty (+3)",
+      "iconPath": "./data/images/Modification_Icons__0016_Difficulty-Increase-(small).png",
+      "incompatibleModifierPathIds": [
+        170369
+      ]
+    },
+    {
+      "name": "ExtraSparksInLevel",
+      "id": "extra_sparks_in_level",
+      "displayName": "Extra Sparks In Level",
+      "description": "+50% sparks in fragment",
+      "iconPath": "./data/images/Modification_Icons__0008_Extra-Sparks-in-Level.png",
+      "incompatibleModifierPathIds": []
+    },
+    {
+      "name": "GetSingleRandomItem",
+      "id": "get_single_random_item",
+      "displayName": "Get Single Random Item",
+      "description": "Complete fragment to gain an item",
+      "iconPath": "./data/images/Modification_Icons__0025_Get-one-Item.png",
+      "incompatibleModifierPathIds": [
+        170372,
+        170366
+      ]
+    },
+    {
+      "name": "HealthDecrease_Large",
+      "id": "health_decrease_big",
+      "displayName": "Health Decrease Large",
+      "description": "-100 health (immediate)",
+      "iconPath": "./data/images/Modification_Icons__0023_Health-Decrease-(large).png",
+      "incompatibleModifierPathIds": [
+        170375
+      ]
+    },
+    {
+      "name": "HealthDecrease_Small",
+      "id": "small_health_decrease",
+      "displayName": "Health Decrease Small",
+      "description": "-50 health (immediate)",
+      "iconPath": "./data/images/Modification_Icons__0024_Health-Decrease-(small).png",
+      "incompatibleModifierPathIds": [
+        170376
+      ]
+    },
+    {
+      "name": "HealthIncrease_Large",
+      "id": "health_increase_big",
+      "displayName": "Health Increase Large",
+      "description": "+100 health (immediate)",
+      "iconPath": "./data/images/Modification_Icons__0021_Health-Increase-(large).png",
+      "incompatibleModifierPathIds": [
+        170373
+      ]
+    },
+    {
+      "name": "HealthIncrease_Small",
+      "id": "small_health_increase",
+      "displayName": "Health Increase Small",
+      "description": "+50 health (immediate)",
+      "iconPath": "./data/images/Modification_Icons__0022_Health-Increase-(small).png",
+      "incompatibleModifierPathIds": [
+        170374
+      ]
+    },
+    {
+      "name": "ObstacleSpawn_High",
+      "id": "obstacle_spawn_high",
+      "displayName": "Obstacle Spawn High",
+      "description": "Additional obstacles appear ahead (every 3 seconds)",
+      "iconPath": "./data/images/Modification_Icons__0006_Obstacles-Spawn-Ahead-(high-intensity).png",
+      "incompatibleModifierPathIds": [
+        170378
+      ]
+    },
+    {
+      "name": "ObstacleSpawn_Low",
+      "id": "obstacle_spawn_low",
+      "displayName": "Obstacle Spawn Low",
+      "description": "Additional obstacles appear ahead (every 6 seconds)",
+      "iconPath": "./data/images/Modification_Icons__0007_Obstacles-Spawn-Ahead-(low-intensity).png",
+      "incompatibleModifierPathIds": [
+        170377
+      ]
+    },
+    {
+      "name": "ShopDiscount_Large",
+      "id": "shopDiscount_large",
+      "displayName": "Shop Discount Large",
+      "description": "-50% cost for the next 2 items manifested",
+      "iconPath": "./data/images/Modification_Icons__0002_Discount-at-next-shop-(large).png",
+      "incompatibleModifierPathIds": [
+        170380
+      ]
+    },
+    {
+      "name": "ShopDiscount_Small",
+      "id": "shopDiscount_small",
+      "displayName": "Shop Discount Small",
+      "description": "-25% cost for the next 2 items manifested",
+      "iconPath": "./data/images/Modification_Icons__0003_Discount-at-next-shop-(small).png",
+      "incompatibleModifierPathIds": [
+        170379
+      ]
+    },
+    {
+      "name": "SparkDecrease_Large",
+      "id": "spark_decrease_big",
+      "displayName": "Spark Decrease Large",
+      "description": "-400 sparks (immediate)",
+      "iconPath": "./data/images/Modification_Icons__0019_Spark-Decrease-(large).png",
+      "incompatibleModifierPathIds": [
+        170383
+      ]
+    },
+    {
+      "name": "SparkDecrease_Small",
+      "id": "spark_decrease_small",
+      "displayName": "Spark Decrease Small",
+      "description": "-150 sparks (immediate)",
+      "iconPath": "./data/images/Modification_Icons__0020_Spark-Decrease-(small).png",
+      "incompatibleModifierPathIds": [
+        170384
+      ]
+    },
+    {
+      "name": "SparkIncrease_Large",
+      "id": "spark_increase_big",
+      "displayName": "Spark Increase Large",
+      "description": "+400 sparks (immediate)",
+      "iconPath": "./data/images/Modification_Icons__0017_Spark-Increase-(large).png",
+      "incompatibleModifierPathIds": [
+        170381
+      ]
+    },
+    {
+      "name": "SparkIncrease_Small",
+      "id": "spark_increase_small",
+      "displayName": "Spark Increase Small",
+      "description": "+150 sparks (immediate)",
+      "iconPath": "./data/images/Modification_Icons__0018_Spark-Increase-(small).png",
+      "incompatibleModifierPathIds": [
+        170382
+      ]
+    },
+    {
+      "name": "SparkMultiplierIncrease_Large",
+      "id": "spark_multiplier_large",
+      "displayName": "Spark Multiplier Increase Large",
+      "description": "+100% sparks collected",
+      "iconPath": "./data/images/Modification_Icons__0009_Spark-Multiplier-Increase-(large).png",
+      "incompatibleModifierPathIds": [
+        170386
+      ]
+    },
+    {
+      "name": "SparkMultiplierIncrease_Small",
+      "id": "spark_multiplier_small",
+      "displayName": "Spark Multiplier Increase Small",
+      "description": "+50% sparks collected",
+      "iconPath": "./data/images/Modification_Icons__0010_Spark-Multiplier-Increase-(small).png",
+      "incompatibleModifierPathIds": [
+        170385
+      ]
+    },
+    {
+      "name": "SpeedDifficultyIncrease_Large",
+      "id": "speedDifficultyIncrease_large",
+      "displayName": "Speed Difficulty Increase Large",
+      "description": "+20% collapse speed",
+      "iconPath": "./data/images/Modification_Icons__0004_Collapse-Speed-Increase-(large).png",
+      "incompatibleModifierPathIds": [
+        170388
+      ]
+    },
+    {
+      "name": "SpeedDifficultyIncrease_Small",
+      "id": "speedDifficultyIncrease_small",
+      "displayName": "Speed Difficulty Increase Small",
+      "description": "+10% collapse speed",
+      "iconPath": "./data/images/Modification_Icons__0005_Collapse-Speed-Increase-(small).png",
+      "incompatibleModifierPathIds": [
+        170387
+      ]
+    }
+  ]
+}

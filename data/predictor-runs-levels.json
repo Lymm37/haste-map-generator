@@ -1,0 +1,7893 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-11T11:34:13.244Z",
+  "runConfigs": [
+    {
+      "pathId": 169622,
+      "name": "1 Forest_1",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "1 Forest_1",
+        "nrOfLevels": 12,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365911594270720",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 0,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 0,
+        "endDifficulty": 6,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 80,
+        "maxSpeed": 85,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_ForestBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "FragmentModifierBaseChance": 0,
+        "FragmentModifierSecondaryChance": 0,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170900
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 1,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.33333334
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": []
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 0,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169623,
+      "name": "1 Forest_1_TT",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "1 Forest_1_TT",
+        "nrOfLevels": 6,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365911594270720",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 0,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 0,
+        "endDifficulty": 6,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 80,
+        "maxSpeed": 85,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_ForestBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 1,
+        "SetTimeTrialSeed": "ThroughTheGlades",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "FragmentModifierBaseChance": 0,
+        "FragmentModifierSecondaryChance": 0,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170900
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 1,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.33333334
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": []
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 0,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169624,
+      "name": "10 Final",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "10 Final",
+        "nrOfLevels": 25,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365490993659904",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 9,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 20,
+        "endDifficulty": 36,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 86,
+        "maxSpeed": 97,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "EndBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170354
+        },
+        "FragmentModifierBaseChance": 0.8,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170897
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            }
+          ]
+        },
+        "bossTeir": 0,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169625,
+      "name": "10 Final_Ascension_1",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "10 Final_Ascension_1",
+        "nrOfLevels": 28,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12364970577002496",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 1,
+          "g": 0.3254717,
+          "b": 0.37026364,
+          "a": 1
+        },
+        "accessibleByShardId": -1,
+        "startingItems": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 171170
+            }
+          ]
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 23,
+        "endDifficulty": 40,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 10,
+        "minSpeed": 88,
+        "maxSpeed": 102,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "EndBoss",
+        "isEndless": 0,
+        "ascensionLevel": 1,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170354
+        },
+        "FragmentModifierBaseChance": 0.8,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170897
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            }
+          ]
+        },
+        "bossTeir": 3,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169626,
+      "name": "10 Final_Ascension_1_TT",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "10 Final_Ascension_1_TT",
+        "nrOfLevels": 14,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12364970577002496",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 1,
+          "g": 0.3254717,
+          "b": 0.37026364,
+          "a": 1
+        },
+        "accessibleByShardId": -1,
+        "startingItems": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 171170
+            }
+          ]
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 23,
+        "endDifficulty": 40,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 10,
+        "minSpeed": 88,
+        "maxSpeed": 102,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "EndBoss",
+        "isEndless": 0,
+        "ascensionLevel": 1,
+        "isTimeTrial": 1,
+        "SetTimeTrialSeed": "Bumblebeat",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170354
+        },
+        "FragmentModifierBaseChance": 0.8,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170897
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            }
+          ]
+        },
+        "bossTeir": 3,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169627,
+      "name": "10 Final_Ascension_2",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "10 Final_Ascension_2",
+        "nrOfLevels": 32,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365085454794752",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 1,
+          "g": 0.3254717,
+          "b": 0.37026364,
+          "a": 1
+        },
+        "accessibleByShardId": -1,
+        "startingItems": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 171170
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171178
+            }
+          ]
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 25,
+        "endDifficulty": 45,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 11,
+        "minSpeed": 88,
+        "maxSpeed": 110,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_DesertBoss",
+        "isEndless": 0,
+        "ascensionLevel": 2,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170354
+        },
+        "FragmentModifierBaseChance": 0.8,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170897
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            }
+          ]
+        },
+        "bossTeir": 3,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169628,
+      "name": "10 Final_Ascension_2_TT",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "10 Final_Ascension_2_TT",
+        "nrOfLevels": 15,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365085454794752",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 1,
+          "g": 0.3254717,
+          "b": 0.37026364,
+          "a": 1
+        },
+        "accessibleByShardId": -1,
+        "startingItems": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 171170
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171178
+            }
+          ]
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 25,
+        "endDifficulty": 45,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 11,
+        "minSpeed": 88,
+        "maxSpeed": 110,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_DesertBoss",
+        "isEndless": 0,
+        "ascensionLevel": 2,
+        "isTimeTrial": 1,
+        "SetTimeTrialSeed": "Ouroboros",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170354
+        },
+        "FragmentModifierBaseChance": 0.8,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170897
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            }
+          ]
+        },
+        "bossTeir": 3,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169629,
+      "name": "10 Final_Ascension_3",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "10 Final_Ascension_3",
+        "nrOfLevels": 32,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365103431581696",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.990566,
+          "g": 0.1728818,
+          "b": 0.22717997,
+          "a": 1
+        },
+        "accessibleByShardId": -1,
+        "startingItems": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 171170
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171178
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171177
+            }
+          ]
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 25,
+        "endDifficulty": 45,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 11,
+        "minSpeed": 88,
+        "maxSpeed": 110,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_ForestBoss",
+        "isEndless": 0,
+        "ascensionLevel": 3,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170354
+        },
+        "FragmentModifierBaseChance": 0.8,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170897
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            }
+          ]
+        },
+        "bossTeir": 3,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169630,
+      "name": "10 Final_Ascension_3_TT",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "10 Final_Ascension_3_TT",
+        "nrOfLevels": 15,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365103431581696",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.990566,
+          "g": 0.1728818,
+          "b": 0.22717997,
+          "a": 1
+        },
+        "accessibleByShardId": -1,
+        "startingItems": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 171170
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171178
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171177
+            }
+          ]
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 25,
+        "endDifficulty": 45,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 11,
+        "minSpeed": 88,
+        "maxSpeed": 110,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_ForestBoss",
+        "isEndless": 0,
+        "ascensionLevel": 3,
+        "isTimeTrial": 1,
+        "SetTimeTrialSeed": "CloseToTheEdge",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170354
+        },
+        "FragmentModifierBaseChance": 0.8,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170897
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            }
+          ]
+        },
+        "bossTeir": 3,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169631,
+      "name": "10 Final_Ascension_4",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "10 Final_Ascension_4",
+        "nrOfLevels": 32,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365117977427968",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.990566,
+          "g": 0.1728818,
+          "b": 0.22717997,
+          "a": 1
+        },
+        "accessibleByShardId": -1,
+        "startingItems": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 171170
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171178
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171177
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171171
+            }
+          ]
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 25,
+        "endDifficulty": 45,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 11,
+        "minSpeed": 88,
+        "maxSpeed": 110,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_SnakeBoss",
+        "isEndless": 0,
+        "ascensionLevel": 4,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170354
+        },
+        "FragmentModifierBaseChance": 0.8,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170897
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            }
+          ]
+        },
+        "bossTeir": 3,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169632,
+      "name": "10 Final_Ascension_4_TT",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "10 Final_Ascension_4_TT",
+        "nrOfLevels": 15,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365117977427968",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.990566,
+          "g": 0.1728818,
+          "b": 0.22717997,
+          "a": 1
+        },
+        "accessibleByShardId": -1,
+        "startingItems": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 171170
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171178
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171177
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171171
+            }
+          ]
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 25,
+        "endDifficulty": 45,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 11,
+        "minSpeed": 88,
+        "maxSpeed": 110,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_SnakeBoss",
+        "isEndless": 0,
+        "ascensionLevel": 4,
+        "isTimeTrial": 1,
+        "SetTimeTrialSeed": "BraveNewVoid",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170354
+        },
+        "FragmentModifierBaseChance": 0.8,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170897
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            }
+          ]
+        },
+        "bossTeir": 3,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169633,
+      "name": "10 Final_Ascension_5",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "10 Final_Ascension_5",
+        "nrOfLevels": 36,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365131709579264",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 1,
+          "g": 0.08962262,
+          "b": 0.14977957,
+          "a": 1
+        },
+        "accessibleByShardId": -1,
+        "startingItems": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 171170
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171178
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171177
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171171
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171174
+            }
+          ]
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 30,
+        "endDifficulty": 55,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 8,
+        "maxLegnth": 12,
+        "minSpeed": 95,
+        "maxSpeed": 115,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "EndBoss",
+        "isEndless": 0,
+        "ascensionLevel": 5,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170354
+        },
+        "FragmentModifierBaseChance": 0.8,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170897
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            }
+          ]
+        },
+        "bossTeir": 2,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169634,
+      "name": "10 Final_TT",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "10 Final_TT",
+        "nrOfLevels": 13,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365490993659904",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 9,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 20,
+        "endDifficulty": 36,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 86,
+        "maxSpeed": 97,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "EndBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 1,
+        "SetTimeTrialSeed": "RunForTomorrow",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170354
+        },
+        "FragmentModifierBaseChance": 0.8,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170897
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            }
+          ]
+        },
+        "bossTeir": 0,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169635,
+      "name": "1000 Custom",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "1000 Custom",
+        "nrOfLevels": 10,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": ""
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": 0,
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": -1,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 7,
+        "endDifficulty": 10,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 6,
+        "maxLegnth": 6,
+        "minSpeed": 83.5,
+        "maxSpeed": 90,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 2,
+        "keepRunningSpeedBump": 0,
+        "keepRunningSpeedIncreasePerLevel": 1.5,
+        "bossScene": "",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "FragmentModifierBaseChance": 0,
+        "FragmentModifierSecondaryChance": 0,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": []
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": []
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "bossTeir": 2,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169636,
+      "name": "2 Desert_1",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "2 Desert_1",
+        "nrOfLevels": 13,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365875326124032",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 1,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 4,
+        "endDifficulty": 9,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 80,
+        "maxSpeed": 85,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_DesertBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170355
+        },
+        "FragmentModifierBaseChance": 0.3,
+        "FragmentModifierSecondaryChance": 0,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170894
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 1,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.33333334
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": []
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 0,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169637,
+      "name": "2 Desert_1_TT",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "2 Desert_1_TT",
+        "nrOfLevels": 7,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365875326124032",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 1,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 4,
+        "endDifficulty": 9,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 80,
+        "maxSpeed": 85,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_DesertBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 1,
+        "SetTimeTrialSeed": "Quicksand",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170355
+        },
+        "FragmentModifierBaseChance": 0.3,
+        "FragmentModifierSecondaryChance": 0,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170894
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 1,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.33333334
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": []
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 0,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169638,
+      "name": "3 Forest_2",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "3 Forest_2",
+        "nrOfLevels": 14,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365848977506304",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 2,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 8,
+        "endDifficulty": 13,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 82.5,
+        "maxSpeed": 87.5,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_ForestBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170356
+        },
+        "FragmentModifierBaseChance": 0.5,
+        "FragmentModifierSecondaryChance": 0,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170898
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2481018,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 1,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169639,
+      "name": "3 Forest_2_TT",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "3 Forest_2_TT",
+        "nrOfLevels": 8,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365848977506304",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 2,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 8,
+        "endDifficulty": 13,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 82.5,
+        "maxSpeed": 87.5,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_ForestBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 1,
+        "SetTimeTrialSeed": "AboveTheTrees",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170356
+        },
+        "FragmentModifierBaseChance": 0.5,
+        "FragmentModifierSecondaryChance": 0,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170898
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2481018,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 1,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169640,
+      "name": "4 Snow_1",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "4 Snow_1",
+        "nrOfLevels": 15,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365821961994240",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 3,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 9,
+        "endDifficulty": 16,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 82.5,
+        "maxSpeed": 87.5,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_SnakeBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170357
+        },
+        "FragmentModifierBaseChance": 0.6,
+        "FragmentModifierSecondaryChance": 0.1,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170903
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 1,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.33333334
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": []
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 0,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169641,
+      "name": "4 Snow_1_TT",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "4 Snow_1_TT",
+        "nrOfLevels": 8,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365821961994240",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 3,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 9,
+        "endDifficulty": 16,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 82.5,
+        "maxSpeed": 87.5,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_SnakeBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 1,
+        "SetTimeTrialSeed": "HandsOfIce",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170357
+        },
+        "FragmentModifierBaseChance": 0.6,
+        "FragmentModifierSecondaryChance": 0.1,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170903
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 1,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.33333334
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": []
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 0,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169642,
+      "name": "5 Desert_2",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "5 Desert_2",
+        "nrOfLevels": 16,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365789703602176",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 4,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 10,
+        "endDifficulty": 18,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 85,
+        "maxSpeed": 90,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_DesertBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170358
+        },
+        "FragmentModifierBaseChance": 0.7,
+        "FragmentModifierSecondaryChance": 0.1,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170892
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2481018,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 1,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169643,
+      "name": "5 Desert_2_TT",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "5 Desert_2_TT",
+        "nrOfLevels": 9,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365789703602176",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 4,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 10,
+        "endDifficulty": 18,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 85,
+        "maxSpeed": 90,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_DesertBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 1,
+        "SetTimeTrialSeed": "Quicksand",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170358
+        },
+        "FragmentModifierBaseChance": 0.7,
+        "FragmentModifierSecondaryChance": 0.1,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170892
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2481018,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 1,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169644,
+      "name": "6 Snow_2",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "6 Snow_2",
+        "nrOfLevels": 17,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365765359861760",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 5,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 12,
+        "endDifficulty": 20,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 85,
+        "maxSpeed": 91,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_SnakeBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170359
+        },
+        "FragmentModifierBaseChance": 0.7,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170901
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 1,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.33333334
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": []
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 1,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169645,
+      "name": "6 Snow_2_TT",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "6 Snow_2_TT",
+        "nrOfLevels": 10,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365765359861760",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 5,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 12,
+        "endDifficulty": 20,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 85,
+        "maxSpeed": 91,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_SnakeBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 1,
+        "SetTimeTrialSeed": "GlacialExpanse",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170359
+        },
+        "FragmentModifierBaseChance": 0.7,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170901
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 1,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.33333334
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": []
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 1,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169646,
+      "name": "7 Forest_3",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "7 Forest_3",
+        "nrOfLevels": 18,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365737157361664",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 6,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 15,
+        "endDifficulty": 23,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 86,
+        "maxSpeed": 92,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_ForestBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170360
+        },
+        "FragmentModifierBaseChance": 0.8,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170899
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.1,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.15,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 2,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169647,
+      "name": "7 Forest_3_TT",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "7 Forest_3_TT",
+        "nrOfLevels": 10,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365737157361664",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 6,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 15,
+        "endDifficulty": 23,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 86,
+        "maxSpeed": 92,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_ForestBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 1,
+        "SetTimeTrialSeed": "AmongTheRoots",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170360
+        },
+        "FragmentModifierBaseChance": 0.8,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170899
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.1,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.15,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 2,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169648,
+      "name": "8 Desert_3",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "8 Desert_3",
+        "nrOfLevels": 19,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365706517970944",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 7,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 16,
+        "endDifficulty": 25,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 86,
+        "maxSpeed": 94,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_DesertBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170354
+        },
+        "FragmentModifierBaseChance": 0.8,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170893
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.1,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.15,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 2,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169649,
+      "name": "8 Desert_3_TT",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "8 Desert_3_TT",
+        "nrOfLevels": 11,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365706517970944",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 7,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 16,
+        "endDifficulty": 25,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 86,
+        "maxSpeed": 94,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_DesertBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 1,
+        "SetTimeTrialSeed": "SleepingGiants",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170354
+        },
+        "FragmentModifierBaseChance": 0.8,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170893
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.1,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.15,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 2,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169650,
+      "name": "9 Snow_3",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "9 Snow_3",
+        "nrOfLevels": 20,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365643246895104",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 8,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 20,
+        "endDifficulty": 30,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 86,
+        "maxSpeed": 95,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_SnakeBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170354
+        },
+        "FragmentModifierBaseChance": 0.8,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170902
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 1,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.33333334
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": []
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 2,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169651,
+      "name": "9 Snow_3_TT",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "9 Snow_3_TT",
+        "nrOfLevels": 12,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365643246895104",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": 8,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 20,
+        "endDifficulty": 30,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 7,
+        "maxLegnth": 9,
+        "minSpeed": 86,
+        "maxSpeed": 95,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "Challenge_SnakeBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 1,
+        "SetTimeTrialSeed": "CloseToTheEdge",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170354
+        },
+        "FragmentModifierBaseChance": 0.8,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170902
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 1,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.33333334
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": []
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 2,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169652,
+      "name": "DemoConfig",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "DemoConfig",
+        "nrOfLevels": 13,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": ""
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": 0,
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": -1,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 0,
+        "endDifficulty": 8,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 6,
+        "maxLegnth": 6,
+        "minSpeed": 75,
+        "maxSpeed": 85,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 2,
+        "keepRunningSpeedBump": 0,
+        "keepRunningSpeedIncreasePerLevel": 1.5,
+        "bossScene": "Challenge_ForestBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "FragmentModifierBaseChance": 0,
+        "FragmentModifierSecondaryChance": 0,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": []
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": []
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169613
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169615
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169614
+            }
+          ]
+        },
+        "bossTeir": 2,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169653,
+      "name": "DemoConfig_Run2",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "DemoConfig_Run2",
+        "nrOfLevels": 18,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": ""
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": 0,
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.4716981,
+          "g": 0.4716981,
+          "b": 0.4716981,
+          "a": 1
+        },
+        "accessibleByShardId": -1,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 4,
+        "endDifficulty": 12,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 6,
+        "maxLegnth": 6,
+        "minSpeed": 85,
+        "maxSpeed": 90,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 2,
+        "keepRunningSpeedBump": 0,
+        "keepRunningSpeedIncreasePerLevel": 1.5,
+        "bossScene": "Challenge_ForestBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "FragmentModifierBaseChance": 0,
+        "FragmentModifierSecondaryChance": 0,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": []
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": []
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169613
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169615
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169614
+            }
+          ]
+        },
+        "bossTeir": 2,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169654,
+      "name": "EndlessEasyConfig",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "EndlessEasyConfig",
+        "nrOfLevels": 10,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": 729773709672464,
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.38575262,
+          "g": 0.24056602,
+          "b": 1,
+          "a": 1
+        },
+        "accessibleByShardId": 100,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 171170
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171178
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171177
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171171
+            }
+          ]
+        },
+        "startDifficulty": 5,
+        "endDifficulty": 10,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 12,
+        "maxLegnth": 12,
+        "minSpeed": 80,
+        "maxSpeed": 82.5,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 2,
+        "keepRunningSpeedBump": 0,
+        "keepRunningSpeedIncreasePerLevel": 1.5,
+        "bossScene": "",
+        "isEndless": 1,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 25,
+        "addLifeEveryNLevels": 3,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170353
+        },
+        "FragmentModifierBaseChance": 0.33,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170895
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 2,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169655,
+      "name": "EndlessHardConfig",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "EndlessHardConfig",
+        "nrOfLevels": 10,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": 729773709672464,
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.38575262,
+          "g": 0.24056602,
+          "b": 1,
+          "a": 1
+        },
+        "accessibleByShardId": -1,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 171170
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171178
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171177
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171171
+            }
+          ]
+        },
+        "startDifficulty": 18,
+        "endDifficulty": 25,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 12,
+        "maxLegnth": 12,
+        "minSpeed": 88.75,
+        "maxSpeed": 93.125,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 2,
+        "keepRunningSpeedBump": 0,
+        "keepRunningSpeedIncreasePerLevel": 1.5,
+        "bossScene": "",
+        "isEndless": 1,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 10,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170353
+        },
+        "FragmentModifierBaseChance": 0.33,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170895
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 2,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169656,
+      "name": "EndlessMediumConfig",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "EndlessMediumConfig",
+        "nrOfLevels": 10,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": 729773709672464,
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.38575262,
+          "g": 0.24056602,
+          "b": 1,
+          "a": 1
+        },
+        "accessibleByShardId": -1,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 171170
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171178
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171177
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171171
+            }
+          ]
+        },
+        "startDifficulty": 10,
+        "endDifficulty": 17.5,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 12,
+        "maxLegnth": 12,
+        "minSpeed": 85,
+        "maxSpeed": 88.75,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 2,
+        "keepRunningSpeedBump": 0,
+        "keepRunningSpeedIncreasePerLevel": 1.5,
+        "bossScene": "",
+        "isEndless": 1,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 5,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170353
+        },
+        "FragmentModifierBaseChance": 0.33,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170895
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 2,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169657,
+      "name": "EndlessPeacefulConfig",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "EndlessPeacefulConfig",
+        "nrOfLevels": 10,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": 729773709672464,
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.38575262,
+          "g": 0.24056602,
+          "b": 1,
+          "a": 1
+        },
+        "accessibleByShardId": -1,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 171170
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171178
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171177
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171171
+            }
+          ]
+        },
+        "startDifficulty": 5,
+        "endDifficulty": 5,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 12,
+        "maxLegnth": 12,
+        "minSpeed": 80,
+        "maxSpeed": 80,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 2,
+        "keepRunningSpeedBump": 0,
+        "keepRunningSpeedIncreasePerLevel": 1.5,
+        "bossScene": "",
+        "isEndless": 1,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 25,
+        "addLifeEveryNLevels": 3,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170353
+        },
+        "FragmentModifierBaseChance": 0.33,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170895
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 2,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169658,
+      "name": "EndlessVeryHardConfig",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "EndlessVeryHardConfig",
+        "nrOfLevels": 10,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": 729773709672464,
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0.38575262,
+          "g": 0.24056602,
+          "b": 1,
+          "a": 1
+        },
+        "accessibleByShardId": -1,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 171170
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171178
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171177
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171171
+            }
+          ]
+        },
+        "startDifficulty": 23,
+        "endDifficulty": 30,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 12,
+        "maxLegnth": 12,
+        "minSpeed": 90,
+        "maxSpeed": 95,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 2,
+        "keepRunningSpeedBump": 0,
+        "keepRunningSpeedIncreasePerLevel": 1.5,
+        "bossScene": "",
+        "isEndless": 1,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 170353
+        },
+        "FragmentModifierBaseChance": 0.33,
+        "FragmentModifierSecondaryChance": 0.2,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170895
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": [
+              {
+                "time": 0,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0.33333334
+              },
+              {
+                "time": 0.2,
+                "value": 0,
+                "inSlope": 0,
+                "outSlope": 0.19668081,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.04408885
+              },
+              {
+                "time": 1,
+                "value": 0.1,
+                "inSlope": 0.042021062,
+                "outSlope": 0.042021062,
+                "weightedMode": 0,
+                "inWeight": 0.04389187,
+                "outWeight": 0
+              }
+            ]
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169619
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            }
+          ]
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            }
+          ]
+        },
+        "bossTeir": 2,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169659,
+      "name": "NoUsed10 Final HARD",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "NoUsed10 Final HARD",
+        "nrOfLevels": 35,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": "GUID:ea6e4d3957ce3ec4e94fee132d18d66c"
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": "12365490993659904",
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 1,
+          "g": 0.3254717,
+          "b": 0.37026364,
+          "a": 1
+        },
+        "accessibleByShardId": -1,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 22,
+        "endDifficulty": 50,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 8,
+        "maxLegnth": 12,
+        "minSpeed": 95,
+        "maxSpeed": 110,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 3,
+        "keepRunningSpeedBump": 2,
+        "keepRunningSpeedIncreasePerLevel": 2,
+        "bossScene": "EndBoss",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "FragmentModifierBaseChance": 0,
+        "FragmentModifierSecondaryChance": 0,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170897
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": []
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": []
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169612
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            }
+          ]
+        },
+        "bossTeir": 2,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169925,
+      "name": "TestRunConfig",
+      "run": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 787
+        },
+        "m_Name": "TestRunConfig",
+        "nrOfLevels": 8,
+        "ShardName": {
+          "m_TableReference": {
+            "m_TableCollectionName": ""
+          },
+          "m_TableEntryReference": {
+            "m_KeyId": 0,
+            "m_Key": ""
+          },
+          "m_FallbackState": 0,
+          "m_WaitForCompletion": 0,
+          "m_LocalVariables": {
+            "Array": []
+          }
+        },
+        "StartUIColorOverride": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        },
+        "accessibleByShardId": -1,
+        "startingItems": {
+          "Array": []
+        },
+        "DisasterItemRefs": {
+          "Array": []
+        },
+        "startDifficulty": 10,
+        "endDifficulty": 20,
+        "maxSlope": 0,
+        "minSlope": 0,
+        "minLength": 6,
+        "maxLegnth": 6,
+        "minSpeed": 85,
+        "maxSpeed": 90,
+        "keepRunningDifficultyBump": 3,
+        "keepRunningDifficultyIncreasePerLevel": 2,
+        "keepRunningSpeedBump": 0,
+        "keepRunningSpeedIncreasePerLevel": 1.5,
+        "bossScene": "",
+        "isEndless": 0,
+        "ascensionLevel": 0,
+        "isTimeTrial": 0,
+        "SetTimeTrialSeed": "",
+        "addHealthPerLevelCompleted": 0,
+        "addLifeEveryNLevels": 0,
+        "FragmentModifierSet": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "FragmentModifierBaseChance": 0,
+        "FragmentModifierSecondaryChance": 0,
+        "musicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "propAdditions": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyProps": {
+          "Array": []
+        },
+        "overRideLevelConfigChance": {
+          "m_Curve": {
+            "Array": []
+          },
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "overRideLevelConfigs": {
+          "Array": []
+        },
+        "categories": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169611
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169620
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169616
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169617
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169618
+            }
+          ]
+        },
+        "bossTeir": 0,
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    }
+  ],
+  "levels": [
+    {
+      "pathId": 169915,
+      "level": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2482
+        },
+        "m_Name": "0 TEST LEVEL",
+        "seed": 0,
+        "mainConfig": 0,
+        "minLength": 6,
+        "maxLength": 12,
+        "slopePer10m": 1,
+        "biome": {
+          "m_FileID": 0,
+          "m_PathID": 72184
+        },
+        "probabilityOfVariation": 0,
+        "biomeVariants": {
+          "Array": []
+        },
+        "biomeAdditions": {
+          "Array": []
+        },
+        "noisePresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 77164
+            }
+          ]
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "splineKeyPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169660
+            }
+          ]
+        },
+        "roadWidthPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169661
+            }
+          ]
+        },
+        "propMultiplier": 1,
+        "propPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169663
+            }
+          ]
+        },
+        "addedProps": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyPropPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169921
+            }
+          ]
+        },
+        "keyPropBudget": 0,
+        "forceKeyProps": {
+          "Array": []
+        },
+        "handPlacedObjectRoots": {
+          "Array": []
+        },
+        "configMusicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "terrainMaterialOverride": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "portalTexture": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169611,
+      "level": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2482
+        },
+        "m_Name": "Agency",
+        "seed": 0,
+        "mainConfig": 0,
+        "minLength": 5,
+        "maxLength": 5,
+        "slopePer10m": 0.5,
+        "biome": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "probabilityOfVariation": 0,
+        "biomeVariants": {
+          "Array": []
+        },
+        "biomeAdditions": {
+          "Array": []
+        },
+        "noisePresets": {
+          "Array": []
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "splineKeyPresets": {
+          "Array": []
+        },
+        "roadWidthPresets": {
+          "Array": []
+        },
+        "propMultiplier": 1,
+        "propPresets": {
+          "Array": []
+        },
+        "addedProps": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 57480
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 57479
+            }
+          ]
+        },
+        "keyPropPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169768
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169731
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169758
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169762
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169766
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169755
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169756
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169757
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169728
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169751
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169752
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169753
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169754
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169721
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169722
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169770
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169776
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169778
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169763
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169719
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169759
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169729
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169727
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169730
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169760
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169761
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169769
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169780
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169767
+            }
+          ]
+        },
+        "keyPropBudget": 0,
+        "forceKeyProps": {
+          "Array": []
+        },
+        "handPlacedObjectRoots": {
+          "Array": []
+        },
+        "configMusicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "terrainMaterialOverride": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "portalTexture": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169613,
+      "level": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2482
+        },
+        "m_Name": "Agency_DEMO",
+        "seed": 0,
+        "mainConfig": 0,
+        "minLength": 5,
+        "maxLength": 5,
+        "slopePer10m": 0.5,
+        "biome": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "probabilityOfVariation": 0,
+        "biomeVariants": {
+          "Array": []
+        },
+        "biomeAdditions": {
+          "Array": []
+        },
+        "noisePresets": {
+          "Array": []
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "splineKeyPresets": {
+          "Array": []
+        },
+        "roadWidthPresets": {
+          "Array": []
+        },
+        "propMultiplier": 1,
+        "propPresets": {
+          "Array": []
+        },
+        "addedProps": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 57480
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 57479
+            }
+          ]
+        },
+        "keyPropPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169768
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169731
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169758
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169762
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169755
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169728
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169751
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169721
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169722
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169778
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169719
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169729
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169727
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169730
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169760
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169761
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169769
+            }
+          ]
+        },
+        "keyPropBudget": 0,
+        "forceKeyProps": {
+          "Array": []
+        },
+        "handPlacedObjectRoots": {
+          "Array": []
+        },
+        "configMusicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "terrainMaterialOverride": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "portalTexture": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169612,
+      "level": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2482
+        },
+        "m_Name": "Any",
+        "seed": 0,
+        "mainConfig": 0,
+        "minLength": 5,
+        "maxLength": 5,
+        "slopePer10m": 0.5,
+        "biome": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "probabilityOfVariation": 0,
+        "biomeVariants": {
+          "Array": []
+        },
+        "biomeAdditions": {
+          "Array": []
+        },
+        "noisePresets": {
+          "Array": []
+        },
+        "noiseAdditions": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 73646
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 73647
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 7009
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 7010
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 7011
+            }
+          ]
+        },
+        "splineKeyPresets": {
+          "Array": []
+        },
+        "roadWidthPresets": {
+          "Array": []
+        },
+        "propMultiplier": 1,
+        "propPresets": {
+          "Array": []
+        },
+        "addedProps": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyPropPresets": {
+          "Array": []
+        },
+        "keyPropBudget": 0,
+        "forceKeyProps": {
+          "Array": []
+        },
+        "handPlacedObjectRoots": {
+          "Array": []
+        },
+        "configMusicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "terrainMaterialOverride": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "portalTexture": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169614,
+      "level": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2482
+        },
+        "m_Name": "Any_DEMO",
+        "seed": 0,
+        "mainConfig": 0,
+        "minLength": 5,
+        "maxLength": 5,
+        "slopePer10m": 0.5,
+        "biome": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "probabilityOfVariation": 0,
+        "biomeVariants": {
+          "Array": []
+        },
+        "biomeAdditions": {
+          "Array": []
+        },
+        "noisePresets": {
+          "Array": []
+        },
+        "noiseAdditions": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 73646
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 73647
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 7009
+            }
+          ]
+        },
+        "splineKeyPresets": {
+          "Array": []
+        },
+        "roadWidthPresets": {
+          "Array": []
+        },
+        "propMultiplier": 1,
+        "propPresets": {
+          "Array": []
+        },
+        "addedProps": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyPropPresets": {
+          "Array": []
+        },
+        "keyPropBudget": 0,
+        "forceKeyProps": {
+          "Array": []
+        },
+        "handPlacedObjectRoots": {
+          "Array": []
+        },
+        "configMusicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "terrainMaterialOverride": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "portalTexture": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169616,
+      "level": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2482
+        },
+        "m_Name": "Desert",
+        "seed": 535022566,
+        "mainConfig": 1,
+        "minLength": 5,
+        "maxLength": 5,
+        "slopePer10m": 0.5,
+        "biome": {
+          "m_FileID": 0,
+          "m_PathID": 72184
+        },
+        "probabilityOfVariation": 0.4,
+        "biomeVariants": {
+          "Array": [
+            {
+              "variant": {
+                "m_FileID": 0,
+                "m_PathID": 72189
+              },
+              "weight": 0.1
+            },
+            {
+              "variant": {
+                "m_FileID": 0,
+                "m_PathID": 72192
+              },
+              "weight": 0.5
+            },
+            {
+              "variant": {
+                "m_FileID": 0,
+                "m_PathID": 72203
+              },
+              "weight": 0.1
+            },
+            {
+              "variant": {
+                "m_FileID": 0,
+                "m_PathID": 72186
+              },
+              "weight": 0.05
+            },
+            {
+              "variant": {
+                "m_FileID": 0,
+                "m_PathID": 72194
+              },
+              "weight": 0.05
+            },
+            {
+              "variant": {
+                "m_FileID": 0,
+                "m_PathID": 72188
+              },
+              "weight": 0.3
+            },
+            {
+              "variant": {
+                "m_FileID": 0,
+                "m_PathID": 72185
+              },
+              "weight": 1
+            },
+            {
+              "variant": {
+                "m_FileID": 0,
+                "m_PathID": 72187
+              },
+              "weight": 1
+            }
+          ]
+        },
+        "biomeAdditions": {
+          "Array": []
+        },
+        "noisePresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 77162
+            }
+          ]
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "splineKeyPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169660
+            }
+          ]
+        },
+        "roadWidthPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169661
+            }
+          ]
+        },
+        "propMultiplier": 1,
+        "propPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169663
+            }
+          ]
+        },
+        "addedProps": {
+          "Array": [
+            {
+              "probability": 0,
+              "nrOfSpawnsMultiplier": 1,
+              "nrOfSpawnsMultiplierRandom": 0,
+              "propGroup": {
+                "m_FileID": 0,
+                "m_PathID": 169677
+              },
+              "effects": {
+                "Array": []
+              }
+            },
+            {
+              "probability": 0,
+              "nrOfSpawnsMultiplier": 1,
+              "nrOfSpawnsMultiplierRandom": 0,
+              "propGroup": {
+                "m_FileID": 0,
+                "m_PathID": 169674
+              },
+              "effects": {
+                "Array": []
+              }
+            }
+          ]
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyPropPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169765
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169764
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169723
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169726
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169724
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169725
+            }
+          ]
+        },
+        "keyPropBudget": 0,
+        "forceKeyProps": {
+          "Array": []
+        },
+        "handPlacedObjectRoots": {
+          "Array": []
+        },
+        "configMusicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170894
+        },
+        "terrainMaterialOverride": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "portalTexture": {
+          "m_FileID": 0,
+          "m_PathID": 1035
+        },
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169621,
+      "level": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2482
+        },
+        "m_Name": "Ethereal",
+        "seed": 0,
+        "mainConfig": 0,
+        "minLength": 6,
+        "maxLength": 6,
+        "slopePer10m": 0.3,
+        "biome": {
+          "m_FileID": 0,
+          "m_PathID": 72196
+        },
+        "probabilityOfVariation": 0,
+        "biomeVariants": {
+          "Array": []
+        },
+        "biomeAdditions": {
+          "Array": []
+        },
+        "noisePresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 77161
+            }
+          ]
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "splineKeyPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169660
+            }
+          ]
+        },
+        "roadWidthPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169661
+            }
+          ]
+        },
+        "propMultiplier": 1,
+        "propPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169664
+            }
+          ]
+        },
+        "addedProps": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyPropPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169720
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169771
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169740
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169775
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169739
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169777
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169772
+            }
+          ]
+        },
+        "keyPropBudget": 0,
+        "forceKeyProps": {
+          "Array": []
+        },
+        "handPlacedObjectRoots": {
+          "Array": []
+        },
+        "configMusicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170896
+        },
+        "terrainMaterialOverride": {
+          "m_FileID": 0,
+          "m_PathID": 62
+        },
+        "portalTexture": {
+          "m_FileID": 0,
+          "m_PathID": 567
+        },
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169617,
+      "level": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2482
+        },
+        "m_Name": "Forest",
+        "seed": 0,
+        "mainConfig": 1,
+        "minLength": 5,
+        "maxLength": 5,
+        "slopePer10m": 0.5,
+        "biome": {
+          "m_FileID": 0,
+          "m_PathID": 72199
+        },
+        "probabilityOfVariation": 0.4,
+        "biomeVariants": {
+          "Array": [
+            {
+              "variant": {
+                "m_FileID": 0,
+                "m_PathID": 72197
+              },
+              "weight": 1
+            },
+            {
+              "variant": {
+                "m_FileID": 0,
+                "m_PathID": 72198
+              },
+              "weight": 0.3
+            },
+            {
+              "variant": {
+                "m_FileID": 0,
+                "m_PathID": 72202
+              },
+              "weight": 0.1
+            }
+          ]
+        },
+        "biomeAdditions": {
+          "Array": []
+        },
+        "noisePresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 77164
+            }
+          ]
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "splineKeyPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169660
+            }
+          ]
+        },
+        "roadWidthPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169661
+            }
+          ]
+        },
+        "propMultiplier": 1,
+        "propPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169665
+            }
+          ]
+        },
+        "addedProps": {
+          "Array": [
+            {
+              "probability": 1,
+              "nrOfSpawnsMultiplier": 1,
+              "nrOfSpawnsMultiplierRandom": 0,
+              "propGroup": {
+                "m_FileID": 0,
+                "m_PathID": 169673
+              },
+              "effects": {
+                "Array": []
+              }
+            },
+            {
+              "probability": 1,
+              "nrOfSpawnsMultiplier": 1,
+              "nrOfSpawnsMultiplierRandom": 0,
+              "propGroup": {
+                "m_FileID": 0,
+                "m_PathID": 169672
+              },
+              "effects": {
+                "Array": []
+              }
+            },
+            {
+              "probability": 1,
+              "nrOfSpawnsMultiplier": 1,
+              "nrOfSpawnsMultiplierRandom": 0,
+              "propGroup": {
+                "m_FileID": 0,
+                "m_PathID": 169671
+              },
+              "effects": {
+                "Array": []
+              }
+            },
+            {
+              "probability": 1,
+              "nrOfSpawnsMultiplier": 1,
+              "nrOfSpawnsMultiplierRandom": 0,
+              "propGroup": {
+                "m_FileID": 0,
+                "m_PathID": 169670
+              },
+              "effects": {
+                "Array": []
+              }
+            },
+            {
+              "probability": 1,
+              "nrOfSpawnsMultiplier": 1,
+              "nrOfSpawnsMultiplierRandom": 0,
+              "propGroup": {
+                "m_FileID": 0,
+                "m_PathID": 169669
+              },
+              "effects": {
+                "Array": []
+              }
+            },
+            {
+              "probability": 1,
+              "nrOfSpawnsMultiplier": 1,
+              "nrOfSpawnsMultiplierRandom": 0,
+              "propGroup": {
+                "m_FileID": 0,
+                "m_PathID": 169686
+              },
+              "effects": {
+                "Array": []
+              }
+            },
+            {
+              "probability": 1,
+              "nrOfSpawnsMultiplier": 1,
+              "nrOfSpawnsMultiplierRandom": 0,
+              "propGroup": {
+                "m_FileID": 0,
+                "m_PathID": 169687
+              },
+              "effects": {
+                "Array": []
+              }
+            }
+          ]
+        },
+        "genObjects": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 70142
+            }
+          ]
+        },
+        "keyPropPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169733
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169732
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169734
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169735
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169736
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169737
+            }
+          ]
+        },
+        "keyPropBudget": 0,
+        "forceKeyProps": {
+          "Array": []
+        },
+        "handPlacedObjectRoots": {
+          "Array": []
+        },
+        "configMusicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170900
+        },
+        "terrainMaterialOverride": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "portalTexture": {
+          "m_FileID": 0,
+          "m_PathID": 595
+        },
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169615,
+      "level": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2482
+        },
+        "m_Name": "Forest_DEMO",
+        "seed": 0,
+        "mainConfig": 0,
+        "minLength": 5,
+        "maxLength": 5,
+        "slopePer10m": 0.5,
+        "biome": {
+          "m_FileID": 0,
+          "m_PathID": 72199
+        },
+        "probabilityOfVariation": 0,
+        "biomeVariants": {
+          "Array": []
+        },
+        "biomeAdditions": {
+          "Array": []
+        },
+        "noisePresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 77164
+            }
+          ]
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "splineKeyPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169660
+            }
+          ]
+        },
+        "roadWidthPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169661
+            }
+          ]
+        },
+        "propMultiplier": 1,
+        "propPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169665
+            }
+          ]
+        },
+        "addedProps": {
+          "Array": [
+            {
+              "probability": 1,
+              "nrOfSpawnsMultiplier": 1,
+              "nrOfSpawnsMultiplierRandom": 0,
+              "propGroup": {
+                "m_FileID": 0,
+                "m_PathID": 169673
+              },
+              "effects": {
+                "Array": []
+              }
+            },
+            {
+              "probability": 1,
+              "nrOfSpawnsMultiplier": 1,
+              "nrOfSpawnsMultiplierRandom": 0,
+              "propGroup": {
+                "m_FileID": 0,
+                "m_PathID": 169672
+              },
+              "effects": {
+                "Array": []
+              }
+            },
+            {
+              "probability": 1,
+              "nrOfSpawnsMultiplier": 1,
+              "nrOfSpawnsMultiplierRandom": 0,
+              "propGroup": {
+                "m_FileID": 0,
+                "m_PathID": 169671
+              },
+              "effects": {
+                "Array": []
+              }
+            },
+            {
+              "probability": 1,
+              "nrOfSpawnsMultiplier": 1,
+              "nrOfSpawnsMultiplierRandom": 0,
+              "propGroup": {
+                "m_FileID": 0,
+                "m_PathID": 169670
+              },
+              "effects": {
+                "Array": []
+              }
+            },
+            {
+              "probability": 1,
+              "nrOfSpawnsMultiplier": 1,
+              "nrOfSpawnsMultiplierRandom": 0,
+              "propGroup": {
+                "m_FileID": 0,
+                "m_PathID": 169669
+              },
+              "effects": {
+                "Array": []
+              }
+            },
+            {
+              "probability": 1,
+              "nrOfSpawnsMultiplier": 1,
+              "nrOfSpawnsMultiplierRandom": 0,
+              "propGroup": {
+                "m_FileID": 0,
+                "m_PathID": 169686
+              },
+              "effects": {
+                "Array": []
+              }
+            }
+          ]
+        },
+        "genObjects": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 70142
+            }
+          ]
+        },
+        "keyPropPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169733
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169732
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169734
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169735
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169737
+            }
+          ]
+        },
+        "keyPropBudget": 0,
+        "forceKeyProps": {
+          "Array": []
+        },
+        "handPlacedObjectRoots": {
+          "Array": []
+        },
+        "configMusicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "terrainMaterialOverride": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "portalTexture": {
+          "m_FileID": 0,
+          "m_PathID": 595
+        },
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169618,
+      "level": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2482
+        },
+        "m_Name": "Ice",
+        "seed": 0,
+        "mainConfig": 1,
+        "minLength": 5,
+        "maxLength": 5,
+        "slopePer10m": 0.5,
+        "biome": {
+          "m_FileID": 0,
+          "m_PathID": 72200
+        },
+        "probabilityOfVariation": 0.4,
+        "biomeVariants": {
+          "Array": [
+            {
+              "variant": {
+                "m_FileID": 0,
+                "m_PathID": 72190
+              },
+              "weight": 0.5
+            },
+            {
+              "variant": {
+                "m_FileID": 0,
+                "m_PathID": 72191
+              },
+              "weight": 0.1
+            },
+            {
+              "variant": {
+                "m_FileID": 0,
+                "m_PathID": 72195
+              },
+              "weight": 1
+            }
+          ]
+        },
+        "biomeAdditions": {
+          "Array": []
+        },
+        "noisePresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 77163
+            }
+          ]
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "splineKeyPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169660
+            }
+          ]
+        },
+        "roadWidthPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169661
+            }
+          ]
+        },
+        "propMultiplier": 1,
+        "propPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169668
+            }
+          ]
+        },
+        "addedProps": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyPropPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169738
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169774
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169750
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169741
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169742
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169743
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169744
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169745
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169746
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169747
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169748
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169749
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169773
+            }
+          ]
+        },
+        "keyPropBudget": 0,
+        "forceKeyProps": {
+          "Array": []
+        },
+        "handPlacedObjectRoots": {
+          "Array": []
+        },
+        "configMusicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 170903
+        },
+        "terrainMaterialOverride": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "portalTexture": {
+          "m_FileID": 0,
+          "m_PathID": 429
+        },
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169619,
+      "level": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2482
+        },
+        "m_Name": "Mushroom",
+        "seed": 1513192433,
+        "mainConfig": 0,
+        "minLength": 6,
+        "maxLength": 6,
+        "slopePer10m": 0.25,
+        "biome": {
+          "m_FileID": 0,
+          "m_PathID": 72201
+        },
+        "probabilityOfVariation": 0,
+        "biomeVariants": {
+          "Array": []
+        },
+        "biomeAdditions": {
+          "Array": []
+        },
+        "noisePresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 77164
+            }
+          ]
+        },
+        "noiseAdditions": {
+          "Array": []
+        },
+        "splineKeyPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169660
+            }
+          ]
+        },
+        "roadWidthPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169661
+            }
+          ]
+        },
+        "propMultiplier": 0.8,
+        "propPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169666
+            }
+          ]
+        },
+        "addedProps": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyPropPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169718
+            }
+          ]
+        },
+        "keyPropBudget": 0,
+        "forceKeyProps": {
+          "Array": []
+        },
+        "handPlacedObjectRoots": {
+          "Array": []
+        },
+        "configMusicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "terrainMaterialOverride": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "portalTexture": {
+          "m_FileID": 0,
+          "m_PathID": 567
+        },
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169922,
+      "level": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2482
+        },
+        "m_Name": "ProcLevel",
+        "seed": 0,
+        "mainConfig": 0,
+        "minLength": 10,
+        "maxLength": 10,
+        "slopePer10m": 0,
+        "biome": {
+          "m_FileID": 0,
+          "m_PathID": 72193
+        },
+        "probabilityOfVariation": 0,
+        "biomeVariants": {
+          "Array": []
+        },
+        "biomeAdditions": {
+          "Array": []
+        },
+        "noisePresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 77162
+            }
+          ]
+        },
+        "noiseAdditions": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 7008
+            }
+          ]
+        },
+        "splineKeyPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169660
+            }
+          ]
+        },
+        "roadWidthPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169662
+            }
+          ]
+        },
+        "propMultiplier": 1,
+        "propPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169667
+            }
+          ]
+        },
+        "addedProps": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyPropPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169921
+            }
+          ]
+        },
+        "keyPropBudget": 0,
+        "forceKeyProps": {
+          "Array": []
+        },
+        "handPlacedObjectRoots": {
+          "Array": []
+        },
+        "configMusicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "terrainMaterialOverride": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "portalTexture": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    },
+    {
+      "pathId": 169620,
+      "level": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 1,
+          "m_PathID": 2482
+        },
+        "m_Name": "RainyDesert",
+        "seed": 0,
+        "mainConfig": 0,
+        "minLength": 6,
+        "maxLength": 6,
+        "slopePer10m": 0.25,
+        "biome": {
+          "m_FileID": 0,
+          "m_PathID": 72193
+        },
+        "probabilityOfVariation": 0,
+        "biomeVariants": {
+          "Array": []
+        },
+        "biomeAdditions": {
+          "Array": []
+        },
+        "noisePresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 77162
+            }
+          ]
+        },
+        "noiseAdditions": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 73645
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 73644
+            }
+          ]
+        },
+        "splineKeyPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169660
+            }
+          ]
+        },
+        "roadWidthPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169661
+            }
+          ]
+        },
+        "propMultiplier": 0.8,
+        "propPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169667
+            }
+          ]
+        },
+        "addedProps": {
+          "Array": []
+        },
+        "genObjects": {
+          "Array": []
+        },
+        "keyPropPresets": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 169779
+            }
+          ]
+        },
+        "keyPropBudget": 0,
+        "forceKeyProps": {
+          "Array": []
+        },
+        "handPlacedObjectRoots": {
+          "Array": []
+        },
+        "configMusicPlaylist": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "terrainMaterialOverride": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "portalTexture": {
+          "m_FileID": 0,
+          "m_PathID": 567
+        },
+        "references": {
+          "version": 2,
+          "RefIds": []
+        }
+      }
+    }
+  ]
+}

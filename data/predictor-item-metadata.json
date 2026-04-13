@@ -1,0 +1,808 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-10T19:48:10.245Z",
+  "count": 100,
+  "mappedIconCount": 100,
+  "items": [
+    {
+      "name": "Active_Boost",
+      "displayName": "Rocket Boots",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Rocket_Boots.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Active_Grapple",
+      "displayName": "Energy Lash",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Energy_Lash.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Active_Heal",
+      "displayName": "Replenishing Vial",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Replenishing_Vial.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Active_Jump",
+      "displayName": "Mysterious Spring",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Mysterious_Spring.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Active_Redirection",
+      "displayName": "Standard Redirector",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Standard_Redirector.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Active_Shield",
+      "displayName": "Personal Matter Stabilizer",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Personal_Matter_Stabilizer.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Active_Slomo",
+      "displayName": "Time Dilation Thing",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Time_Dilation_Thing.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Active_SparkDash",
+      "displayName": "Spark Dasher",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Spark_Dasher.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Active_TradeHpForBoost",
+      "displayName": "Blood Engine",
+      "description": "",
+      "rarity": 3,
+      "iconPath": "./data/images/100px-Blood_Engine.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Active_TradeSpeedForHeal",
+      "displayName": "Velocity Powered Syringe",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Velocity_Powered_Syringe.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "AutoPilot",
+      "displayName": "Experimental Autopilot",
+      "description": "",
+      "rarity": 3,
+      "iconPath": "./data/images/100px-Experimental_Autopilot.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "BecomeInvulnerableForAMomentOnPerfectLanding",
+      "displayName": "Grunt's Helmet",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Grunt's_Helmet.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "BlockDamageWithChance",
+      "displayName": "Protective Medallion",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Protective_Medallion.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "BlockDamageWithCooldown",
+      "displayName": "Impulse Activated Stabilizer",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Impulse_Activated_Stabilizer.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "BoostPerMissingHealth",
+      "displayName": "Painful Coil",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Painful_Coil.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "BoostPerPerfectLandingStreak",
+      "displayName": "Well Earned Confidence",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Well_Earned_Confidence.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "BoostPerSpark",
+      "displayName": "BOOSTR POG",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-BOOSTR_POG.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "ChanceForFullHP",
+      "displayName": "Pungent Herbs",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Pungent_Herbs.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "CloseCallBoost",
+      "displayName": "Shortcut",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Shortcut.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "CloseCallCooldown",
+      "displayName": "Tight Schedule",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Tight_Schedule.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "CloseCallEcho",
+      "displayName": "Flashback",
+      "description": "",
+      "rarity": 3,
+      "iconPath": "./data/images/100px-Flashback.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "CloseCallEnergy",
+      "displayName": "Adrenaline",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Adrenaline.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "CloseCallHeal",
+      "displayName": "Restorative Maneuver",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Restorative_Maneuver.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "CloseCallInv",
+      "displayName": "Delayed Emergency Device",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Delayed_Emergency_Device.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "CloseCallLuck",
+      "displayName": "N Dimensional leaf Clover",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-N-Dimensional-leaf_Clover.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "CloseCallSave",
+      "displayName": "Planar Reconfiguration",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Planar_Reconfiguration.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "CooldownReductionOnPerfectLanding",
+      "displayName": "Atomic Timepiece",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Atomic_Timepiece.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "CooldownReductionPerBoost",
+      "displayName": "General Relativity",
+      "description": "",
+      "rarity": 3,
+      "iconPath": "./data/images/100px-General_Relativity.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "CooldownReductionWithCooldown",
+      "displayName": "Overwound Pocketwatch",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Overwound_Pocketwatch.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "GetBoostAtFullHealth",
+      "displayName": "Shiny Anchor Pin",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Shiny_Anchor_Pin.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "GetBoostOnHeal",
+      "displayName": "Vitamins",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Vitamins.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "GetBoostWhenTakeDamage",
+      "displayName": "Heir's Determination",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Heir's_Determination.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "GetBoostWithCooldown",
+      "displayName": "Perpetual Motion Machine",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Perpetual_Motion_Machine.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "GetEnergyWithCooldown",
+      "displayName": "Plutonium Coin",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Plutonium_Coin.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "GetHealedOnPerfectLanding",
+      "displayName": "Performance Based Health Insurance",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Performance_Based_Health_Insurance.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "GetHealthWhenTakeDamage",
+      "displayName": "Impact Activated Healing Drone",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Impact_Activated_Healing_Drone.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "HealthRegenAtAlmostFullHealth",
+      "displayName": "Leadership Pipe",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Leadership_Pipe.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "LuckPerMissingHealth",
+      "displayName": "Karma",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Karma.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "MaxHealthButDieOnOkOrBadLanding",
+      "displayName": "Brittle Breastplate",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Brittle_Breastplate.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_Active_HealWhenTakeDamage",
+      "displayName": "Steel Hat Lining",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Steel_Hat_Lining.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_Active_KillObstacles",
+      "displayName": "Portable Harvester",
+      "description": "",
+      "rarity": 3,
+      "iconPath": "./data/images/100px-Portable_Harvester.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_Active_KillObstaclesPulse",
+      "displayName": "Otherworldly Contact",
+      "description": "",
+      "rarity": 3,
+      "iconPath": "./data/images/100px-Otherworldly_Contact.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_Active_StickToGround",
+      "displayName": "Personal Gravity Enhancer",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Personal_Gravity_Enhancer.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_Active_Teleport",
+      "displayName": "Timeline Shifter",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Timeline_Shifter.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_Active_TempSpeed",
+      "displayName": "Recyclable Rocket",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Recyclable_Rocket.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_BigEffectOnSlowSpeed",
+      "displayName": "Emergency Shoes",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Emergency_Shoes.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_BoostIfLastLandingWasPerfect",
+      "displayName": "Fragile Confidence",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Fragile_Confidence.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_EnergyOnRunning",
+      "displayName": "Dynamo Treadmill",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Dynamo_Treadmill.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_HealOnRunning",
+      "displayName": "Distance Based Health Insurance",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Distance-Based_Health_Insurance.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_HealPerEnergyUsed",
+      "displayName": "Reheated Soup",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Reheated_Soup.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_InvuPerEnergyUsed",
+      "displayName": "Intangibility",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Intangibility.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_OnSparkPickupBigEffect",
+      "displayName": "Greed Machine",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Greed_Machine.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_Phoenix",
+      "displayName": "Timeline Recalibrator",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Timeline_Recalibrator.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_PlaceRingInFront",
+      "displayName": "Ring Materializer",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Ring_Materializer.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_RegenIfLastLandingWasPerfect",
+      "displayName": "Fragile Taco",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Fragile_Taco.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_RegenWithSpeed_Threshold",
+      "displayName": "Speedy Recovery",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Speedy_Recovery.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_RewindOnDamage",
+      "displayName": "Timeline Refactor",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Timeline_Refactor.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_SparksOnRunning",
+      "displayName": "Shimmering Condenser",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Shimmering_Condenser.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_StartWithBoost",
+      "displayName": "Transition Slingshot",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Transition_Slingshot.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_StartWithEnergy",
+      "displayName": "Void Charger",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Void_Charger.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_StartWithHeal",
+      "displayName": "Pocket Snack",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Pocket_Snack.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "NEW_StartWithMoney",
+      "displayName": "Void Compressor",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Void_Compressor.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "OnGetCoin_Boost",
+      "displayName": "Spark Powered Propeller",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Spark_Powered_Propeller.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "OnGetCoin_Energy",
+      "displayName": "Spark Furnace",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Spark_Furnace.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "OnGetCoin_Heal",
+      "displayName": "Mortar and Pestle",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Mortar_and_Pestle.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "OnGetCoin_Invuln",
+      "displayName": "Friendly Looking Star",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Friendly_Looking_Star.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "PermanentBoost",
+      "displayName": "Golden Necklace",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Golden_Necklace.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "RandomChanceToBoostOnPerfectLanding",
+      "displayName": "Secret Technique Instructions",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Secret_Technique_Instructions.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "RandomChanceToGetLuck",
+      "displayName": "Overcomplicated Coin",
+      "description": "",
+      "rarity": 3,
+      "iconPath": "./data/images/100px-Overcomplicated_Coin.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "RandomChanceToRegen",
+      "displayName": "Overclocked Medical Drone",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Overclocked_Medical_Drone.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "RandomChanceToSaveNonPerfectLanding",
+      "displayName": "Clown Shoes",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Clown_Shoes.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Regen",
+      "displayName": "Aromatic Herbs",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Aromatic_Herbs.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "RegenerationPerBoost",
+      "displayName": "Low Grade Timeline Swapper",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Low_Grade_Timeline_Swapper.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "RegenPercent",
+      "displayName": "Bitter Herbs",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Bitter_Herbs.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "RegenPerMissingHealth",
+      "displayName": "Extreme Herbs",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Extreme_Herbs.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "SaveANonPerfectLandingWithCooldown",
+      "displayName": "Momentum Recalibrator",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Momentum_Recalibrator.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "SparksChanceOnPerfectLanding",
+      "displayName": "Jackpot",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Jackpot.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "SparksChanceOverTime",
+      "displayName": "High Risk Investment",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-High_Risk_Investment.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "SparksOnPerfectLanding",
+      "displayName": "Steady Investment",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Steady_Investment.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "SparksOverTime",
+      "displayName": "Interest",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Interest.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "SparksOverTimeDamgeOnPickUp",
+      "displayName": "Dangerous Investment Scheme",
+      "description": "",
+      "rarity": 3,
+      "iconPath": "./data/images/100px-Dangerous_Investment_Scheme.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Stats_CoinPickupRange",
+      "displayName": "Big Spark Magnet",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Big_Spark_Magnet.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Stats_Luck",
+      "displayName": "400 leaf Clover",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-400-leaf_Clover.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Stats_LuckOnFullHealth",
+      "displayName": "Heart Shaped Mirror",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Heart_Shaped_Mirror.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Stats_MaxHealthFlat",
+      "displayName": "Big Pumpkin",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Big_Pumpkin.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Stats_MaxHealthMultiply",
+      "displayName": "Big Squash",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Big_Squash.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Stats_MaxHealthOnSpeed",
+      "displayName": "Quick Taco",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Quick_Taco.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Stats_SparkInLevel",
+      "displayName": "Growth Potential",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Growth_Potential.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Stats_SparkOnTakeDamage",
+      "displayName": "Instant Compensation Machine",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Instant_Compensation_Machine.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "TakeDamageOnBadLandingButGetPermanentBoost",
+      "displayName": "Experimental Thrusters",
+      "description": "",
+      "rarity": 3,
+      "iconPath": "./data/images/100px-Experimental_Thrusters.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "TakeDamageOnCloseCallButGetPermanentBoost",
+      "displayName": "Wingspan",
+      "description": "",
+      "rarity": 3,
+      "iconPath": "./data/images/100px-Wingspan.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "Active_PlaceRing",
+      "displayName": "Boost Remote",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Boost_Remote.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "OnBoostRing_ChanceOfInvulnerable",
+      "displayName": "Energy Funnel",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Energy_Funnel.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "OnBoostRing_ChanceOfRing",
+      "displayName": "Bootleg Pattern",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Bootleg_Pattern.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "OnBoostRing_RingAndObstacle",
+      "displayName": "Timeline Attractor",
+      "description": "",
+      "rarity": 3,
+      "iconPath": "./data/images/100px-Timeline_Attractor.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "OnCloseCall_ChanceOfRing",
+      "displayName": "Risk and Reward",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Risk_and_Reward.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "OnHeal_ChanceOfRing",
+      "displayName": "Cherry on Top",
+      "description": "",
+      "rarity": 1,
+      "iconPath": "./data/images/100px-Cherry_on_Top.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "OnRunning_Ring",
+      "displayName": "Pathfinder",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Pathfinder.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "OnSparkCounter_Boost",
+      "displayName": "Charge Boots",
+      "description": "",
+      "rarity": 2,
+      "iconPath": "./data/images/100px-Charge_Boots.png",
+      "incompatibleModifiers": []
+    },
+    {
+      "name": "OnSparkPickup_ChanceOfRing",
+      "displayName": "Charge Boots",
+      "description": "",
+      "rarity": 0,
+      "iconPath": "./data/images/100px-Charge_Boots.png",
+      "incompatibleModifiers": []
+    }
+  ]
+}
